@@ -1,0 +1,36 @@
+/* Kommentar im CSS-Block */
+/* All-Selektor */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Elementselektoren */
+
+/* Klassenselektoren */
+.karte {
+    width: 100px;
+    height: 80px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: aqua;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.karte-float {
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* ID-Selektoren */
+#wrapper {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 80px;
+    background-color: #ddd;
+}
